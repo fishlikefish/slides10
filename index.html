@@ -2,12 +2,16 @@
 <html>
 <head>
 <meta charset="utf-8" />
+<meta title="AvG" />
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta http-equiv="X-Frame-Options" content="DENY">
 <meta name="viewport" content="viewport-fit=cover, width=device-width, height=device-height, initial-scale=1" />
 <style>
 :root{
 --logo: ;
---logo-size: ;
---text-scale-intensity: ;
+--logo-size: 7.0;
+--text-scale-intensity: 1.0;
 --darkaccent1color: ;
 --lightaccent1color: ;
 --accent2: #43aa8b;
@@ -19,13 +23,21 @@
 --darktitletextcolor: #000000;
 --lightbodytextcolor: #ffffff;
 --darkbodytextcolor: #000000;
---lightbackgroundcolor: transparent;
+--lightbackgroundcolor: #ffca00;
 --darkbackgroundcolor: transparent;
---bodyfont: ibm plex sans;
---titlefont: ibm plex serif;
+--bodyfont: 'IBM Plex Sans', sans-serif;
+--titlefont: 'IBM Plex Serif', serif;
 --lightframecolor: #FFFFFF;
 --darkframecolor: #000000;
 } 
+
+/* Custom line-height corrections */
+h2, h3, h4 {
+    line-height: 1.15 !important; 
+}
+p {
+    line-height: 1.2 !important; 
+}
 
 </style>
 <link rel="stylesheet" href="engine/main.css">
